@@ -1,0 +1,58 @@
+body {
+    background-color: gold;
+}        
+header{
+    border: 1px solid #003161;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+h1 {
+    color: darkgreen;
+}
+p{
+    font-style: italic;
+}
+img{
+    width: 35%;
+    border: 7px solid #AE445A;
+    border-radius: 40% 0 40%;
+    margin-bottom: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all .5 ease-in-out;
+}
+button {
+    margin-top: 35px;
+    padding: 20px 40px;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 40px 0 40px;
+    cursor: pointer;
+
+}
+button:hover{
+    transform: scale(1.1);
+    transition: all .5 ease-in-out;
+    background-color: rgb(152, 111, 192);
+    color:gold
+}
+.Biodata {
+    display: flex;
+    padding: 30px;
+}
+.Biodata p {
+    padding-left: 40px;
+}
+footer {
+ margin: top 30px;;
+ background-color: #003161;
+ padding: 20px;
+ text-align: center;
+ color: aliceblue;
+}
